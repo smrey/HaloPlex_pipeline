@@ -1,0 +1,5 @@
+Date	Version	Filename	Action
+09/11/15	1	Scripts 1-4	Acquired from Sara Rey
+12/01/16	1	Bed file	Sorted, merged
+10/02/16	1	benign VCF	Known variants acquired from Hood. File date was 01.07.15
+13/04/16	1	Added --min_indel_fraction_per_sample 0.1 to UG	for increased indel detection sensitivity

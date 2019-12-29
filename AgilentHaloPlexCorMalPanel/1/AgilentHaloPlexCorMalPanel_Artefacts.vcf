@@ -1,0 +1,18 @@
+##fileformat=VCFv4.1							
+##INFO=<ID=Classification,Number=1,Type=Integer,Description="Variant pathogenicity classification, 0=Artefact, 1=Clearly not pathogenic, 2=Unlikely to be pathogenic, 3=Unknown significance, 4=Likely to be pathogenic, 5=Clearly pathogenic">
+##INFO=<ID=Submitter,Number=1,Type=String,Description="Submitter name">
+##INFO=<ID=Authoriser,Number=1,Type=String,Description="Authoriser name">
+##INFO=<ID=Evidence,Number=1,Type=String,Description="Classification evidence">
+##INFO=<ID=DateAdded,Number=1,Type=String,Description="Date added">
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO
+1	197053561	.	TA	T	.	.	Classification=0;Submitter=Hood;Authoriser=Legacy;Evidence=None;DateAdded=18/04/2016
+1	197053561	.	T	TA	.	.	Classification=0;Submitter=Hood;Authoriser=Legacy;Evidence=None;DateAdded=18/04/2016
+1	243736210	.	CT	C	.	.	Classification=0;Submitter=Hood;Authoriser=Legacy;Evidence=None;DateAdded=18/04/2016
+7	16317859	.	T	TA	.	.	Classification=0;Submitter=Hood;Authoriser=Legacy;Evidence=None;DateAdded=18/04/2016
+7	103202406	.	CAA	C	.	.	Classification=0;Submitter=Hood;Authoriser=Legacy;Evidence=None;DateAdded=18/04/2016
+7	103202406	.	CA	C	.	.	Classification=0;Submitter=Hood;Authoriser=Legacy;Evidence=None;DateAdded=18/04/2016
+7	103206001	.	GA	G	.	.	Classification=0;Submitter=Hood;Authoriser=Legacy;Evidence=None;DateAdded=18/04/2016
+7	103206001	.	G	GA	.	.	Classification=0;Submitter=Hood;Authoriser=Legacy;Evidence=None;DateAdded=18/04/2016
+7	103629803	.	T	TGCCGCC	.	.	Classification=0;Submitter=Hood;Authoriser=Legacy;Evidence=None;DateAdded=18/04/2016
+X	41383297	.	GA	G	.	.	Classification=0;Submitter=Hood;Authoriser=Legacy;Evidence=None;DateAdded=18/04/2016
+X	41383297	.	G	GA	.	.	Classification=0;Submitter=Hood;Authoriser=Legacy;Evidence=None;DateAdded=18/04/2016
